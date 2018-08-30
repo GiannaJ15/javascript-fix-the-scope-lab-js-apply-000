@@ -6,7 +6,7 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  var animal = "cat"
+  var animal = "cat" // local variable overrides the global variable
   return animal
 }
 
