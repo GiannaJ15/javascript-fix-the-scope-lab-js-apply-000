@@ -26,5 +26,5 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction()() //the first set of parenthesis invokes the first funcio
+var theFunk = funkyFunction()() //the first set of parenthesis invokes the first function and then the second set of parenthesis invokes the second function (diggin)--- setting the variable "theFunk" to the RETURN value of the funkyFunction 
 
