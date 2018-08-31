@@ -9,10 +9,10 @@ function yourAnimal() {
   var animal = "cat" // local variable overrides the global variable
   return animal
 }
-
+const two = 2
 function add2(n) { 
-  console.log(n)
-  const two = 2
+  //console.log(n)
+  
 
   return n + two
 
