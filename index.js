@@ -9,11 +9,8 @@ function yourAnimal() {
   var animal = "cat" // local variable overrides the global variable
   return animal
 }
-const two = 2
+const two = 2 // Looking at the index-test, the constant was supposed to be in the "global scope" which is anything outside a function 
 function add2(n) { 
-  //console.log(n)
-  
-
   return n + two
 
   // Feel free to move things around!
